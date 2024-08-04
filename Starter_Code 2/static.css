@@ -1,0 +1,50 @@
+/* Updated CSS file for the dashboard */
+
+/* General body styling */
+body {
+    background: linear-gradient(to bottom, #4575b4, #74add1, #abd9e9, #e0f3f8, #ffffbf, #fee08b, #fdae61, #f46d43, #d73027);
+    color: #52307c; /* Text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the entire dashboard */
+  #dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(218, 203, 243, 0.577);
+  }
+  
+  /* Metadata panel styling */
+  #sample-metadata {
+    margin-bottom: 20px;
+  }
+  
+  /* Dropdown menu styling */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #b491c8;
+  }
+  
+  /* Container for charts */
+  #charts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual chart styling */
+  #bubble, #bar {
+    width: 45%;
+    min-width: 400px;
+    margin-bottom: 20px;
+  }
+  
